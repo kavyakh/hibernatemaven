@@ -30,6 +30,7 @@ public class HibernateMain
         p.setBrand("LG");
         p.setPrice(30000);
         s.save(p);
+        System.out.println("product is saved");
         t.commit();
         s.close();
         System.exit(0);
